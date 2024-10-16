@@ -34,13 +34,22 @@
     /* margin-top: 30px; */
 }
 
+.content_image_team.special_fix img {
+    width: 150%;
+}
+
+.content_image_team.special_fix.toleft {
+    justify-content: left;
+}
+
 .content_image_team img {
     width: 100%;
 }
 
-.content_text_team {
+.content_text_team,
+.content_title {
     width: 85%;
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
 }
 
