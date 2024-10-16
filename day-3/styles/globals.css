@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-title: "Anton", sans-serif;
+    --font-main: "Jost", sans-serif;
+
+    --color-pink: #E7CCCC;
+    --color-brun: #EDE8DC;
+    --color-dark-green: #A5B68D;
+    --color-green: #C1CFA1;
+
+    --color-white: #fff;
+    --color-black: #000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-main);
+    color: var(--color-black);
+}
+
+nav {
+    background-color: var(--color-green);
+    width: 100%;
+    padding: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+hr {
+    margin: 20px 0 20px;
+    background-color: var(--color-brun);
+    border: none;
+    height: 3px;
+}
+
+footer {
+    width: 100%;
+    height: 160px;
+    background-color: var(--color-green);
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: var(--color-black);
+}
+
+.grid_item_service {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.container_nav_buttons {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.container_nav_buttons a {
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.container_nav_buttons a:hover {
+    color: var(--color-pink);
+}
+
+/* .container_nav_searchbar {
+    background-color: blue;
+} */
+
+.searchbar {
+    width: 400px;
+    height: 40px;
+    background-color: var(--color-pink);
+    border-radius: 54px;
+    border: 3px solid var(--color-brun);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbar img {
+    width: 5%;
+}
+
+.searchbar input {
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+}
+
+.to_center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:900px) {
+    nav {
+        justify-content: center;
+    }
+
+    .container_nav_buttons {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+
+    .searchbar {
+        width: 100%;
+    }
+}
