@@ -46,8 +46,12 @@ header a {
     border-radius: 12px;
 }
 
+/* .item_image.fix_image img {
+    width: 150%;
+} */
+
 .item_image img {
-    width: 100%;
+    width: 120%;
     transition: 0.2s ease-in-out;
 }
 
