@@ -27,40 +27,51 @@
         </div>
     </nav>
 
-    <section>
+    <section class="container_contact">
         <form action="">
-            <label for="options">Options :</label>
-            <select id="options" name="options">
-                <option value="" selected disabled>Choisir</option>
-                <option value="option1">Mr</option>
-                <option value="option2">Mme</option>
-                <option value="option3">Mll</option>
-                <option value="option3">Non binaire</option>
-            </select>
+            <div class="wrapper_options">
+                <label for="options">Options :</label>
+                <select id="options" name="options">
+                    <option value="" selected disabled>Choisir</option>
+                    <option value="option1">Mr</option>
+                    <option value="option2">Mme</option>
+                    <option value="option3">Mll</option>
+                    <option value="option3">Non binaire</option>
+                </select>
+            </div>
+
+
+            <br>
+            <div class="wrapper_input">
+                <label for="lastname">Nom :</label>
+                <input type="text" id="lastname">
+            </div>
+
+
+            <br>
+            <div class="wrapper_input">
+                <label for="fistname">Prénom :</label>
+                <input type="text" id="fistname">
+            </div>
+
+
+            <br>
+            <div class="wrapper_input">
+                <label for="adress">Adresse postale :</label>
+                <textarea name="" id="adress"></textarea>
+            </div>
+
 
             <br>
 
-            <label for="lastname">Nom :</label>
-            <input type="text" id="lastname">
-
-            <br>
-
-            <label for="fistname">Prénom :</label>
-            <input type="text" id="fistname">
-
-            <br>
-
-            <label for="adress">Adresse postale :</label>
-            <textarea name="" id="adress"></textarea>
-
-            <br>
-
-            <label for="check">Veuillez validé la politique de confidentialité</label>
+            <label for="check">Veuillez validé la politique de confidentialité de l'entreprise</label>
             <input type="checkbox" id="check">
 
             <br>
+            <div class="to_center button">
+                <button>Valider</button>
+            </div>
 
-            <button>Valider</button>
         </form>
     </section>
 

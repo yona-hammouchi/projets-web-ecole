@@ -1,0 +1,76 @@
+/* input {
+    width: 300px;
+    height: 30px;
+
+    border-radius: 54px;
+    border: 3px solid var(--color-pink);
+} */
+
+.container_contact {
+    width: 100%;
+
+
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* .container_contact label {} */
+
+form {
+    background-color: var(--color-white);
+    padding: 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 16px;
+    margin: 20px;
+}
+
+.wrapper_options {
+
+    text-align: center;
+}
+
+.wrapper_input {
+
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.wrapper_input input,
+.wrapper_input textarea {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+.to_center.button {
+    margin-top: 40px;
+}
+
+.to_center.button button {
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--color-pink);
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+
+.to_center.button button:active {
+    background-color: var(--color-brun);
+}
+
+.to_center.button button:hover {
+    scale: 1.2;
+}
