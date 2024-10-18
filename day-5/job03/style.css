@@ -1,0 +1,28 @@
+section {
+    background-color: #88c1d0;
+    height: 120px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+@media (min-width: 1600px) {
+    body {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media (max-width: 1599px) and (min-width: 768px) {
+    body {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        grid-template-columns: auto;
+    }
+}
